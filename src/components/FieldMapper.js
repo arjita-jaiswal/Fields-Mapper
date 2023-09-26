@@ -48,7 +48,7 @@ class FieldMapper extends Component {
   handleMappingChange = (index, side, value) => {
     // Insert data in a new object based on index and right and left
     if (side === "left") {
-      if (this.state.selectedInput1[index] == undefined) {
+      if (this.state.selectedInput1[index] === undefined) {
         this.state.selectedInput1[index] = value;
       } else {
         this.state.selectedInput1[index] = value;
